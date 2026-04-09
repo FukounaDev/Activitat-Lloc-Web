@@ -14,7 +14,7 @@
             <a href="music.html">Musica i lletres</a> |
             <a href="games.html">Jocs</a> | 
             <a href="idk.html">meow :3</a> |
-            <a href=""></a> 
+            <a href="poetry.html">Poesia</a> | 
             <a href="form">Contacte</a>
         </p>
         <hr>
@@ -22,13 +22,40 @@
 </head>
 <body>
     <div class="ref">
-        <p>You had apologized before, didn't you?</p>
+        <!--
+            OK Para que no te pienses que es IA te voy a explicar el codigo, esto posterior es 
+            JS (javascript) que he tenido que ir W3schools.com para ver como funcionava
+            En 2ndo de la ESO teniamos una assignatura de python, y como yo ya lo se me puse 
+            a hacer otras cosas entre ellas aprender SQL y Javascript
+            aunque lo tengo muy oxidado asi que "here goes nohing!"
+        -->
+        <button class="hidden" onclick="
+        document.querySelector('.hidden').classList.add('unhidden'); 
+        document.querySelector('video').classList.add('visible');
+        document.querySelector('video').setAttribute('autoplay', '');">
+        <!--QUE DOLOR DE OJOS AJFRKGRKLJGHERKJ-->
+            You had apologized before, didn't you? <!--ayida-->
+        </button>
+
+        <video class="hidden" controls>
+            <source src="res/videos/BODY THE PISTOL.mp4" type="video/mp4">
+        </video>
     </div>
     <div class="page">
         <p>Holaa :3 <br> Benvinguts a la meva pàgina web, V3. Ara amb mes coses, i sobretot musica mès actualitzada. Aquesta es la pàgina principal, per accedir a altres apartats de la mateixa, ves al nav-bar, on hi han els enllaços entremig de les dues barres horiztontals. Tambè hi ha una novel adició a la web; el contacte! On veuras els meus contactes etc</p>
+        <p>Hi ha algún si no mès un altre de secrets en aquesta pàgina! :3 Bona sort -w-
+        </p>
+        <br>    
+        <br>
+        <br>
+        <p>Oki, si no saps on començar, fes click <a class="omggg" href="music.html">aqui!!!</a></p>
     </div>
 </body>
 <footer>
-    <h6>Fet per FukounaDev, 2026</h6>
+  <h6>Fet per <button class="undercover" onclick="document.getElementById('hola').classList.remove('hidden'); document.getElementById('hola').play();">FukounaDev</button>, 2026</h6>
+  <video class="hidden" id="hola" controls>
+    <source src="res/videos/KATAMARI.mp4" type="video/mp4">
+    <!--NO SABES LO QUE ME HA COSTADO ESTOOO ASFWEEWRLJGKGHJEWGWEG 
+    JAVCASCRIPTTTTT -->
+  </video>
 </footer>
-</html>
